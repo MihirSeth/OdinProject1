@@ -15,6 +15,7 @@ h1 {
 
 body {
     font-family: 'Roboto';
+    margin: 0px;
 }
 
 .container2{
@@ -110,6 +111,8 @@ ul {
 .subtextHeader{
     font-size: 18px;
     color: lightgray;
+    /* margin: 0; */
+    padding: 0;
 
 }
   
@@ -124,6 +127,8 @@ img {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    /* margin: 0; */
+    padding: 0;
 }
 
 .signUP{
@@ -209,6 +214,7 @@ img {
     color: white;
     font-size: 20px;
     font-weight: 900;
+    padding: 0;
 
 }
 
@@ -216,6 +222,8 @@ img {
     color: lightgray;
     font-size: 16px;
     /* font-weight: lighter; */
+    padding: 0;
+
 
 }
 
