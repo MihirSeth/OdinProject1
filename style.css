@@ -50,27 +50,26 @@ ul {
     list-style-type: none;
   }
   
-  li {
-    float: right;
-    font-size: 18px;
-    color:whitesmoke;
-  }
-  
-  li a {
-    display: block;
-    padding: 8px;
+li {
+float: right;
+font-size: 18px;
+color:whitesmoke;
+}
 
-
+li a {
+display: block;
+padding: 8px;
   }
 
 
 .navbar {
     overflow: hidden;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding-left: 20px;
+    gap: 3%;
+
 
 }
   
@@ -82,10 +81,24 @@ ul {
     padding: 14px 16px;
 }
   
+.navbarContainer1{
+    /* border: 2px solid white; */
+
+    height: 80px;
+    width: 20%;
+}
+
+.navbarContainer2{
+    /* border: 2px solid white; */
+
+    height: 80px;
+    width: 30%;
+}
+
 .title{
     font-size: 24px;
     color:#F9FAF8;
-    padding-left: 50px;
+    /* padding-left: 50px; */
 
 }
 
