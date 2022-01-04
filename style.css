@@ -110,15 +110,22 @@ padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5%;
+    /* gap: 12%; */
+    gap: 6%;
+
 
 }
 
-.headerItem{
+.headerItem1{
+    /* border: 2px solid #3882F6; */
+    height: 450px;
+    width: 485px;
+}
+
+.headerItem2{
     /* border: 2px solid #3882F6; */
     height: 400px;
     width: 500px;
-    border-radius: 10px;
 }
 
 .subtextHeader{
@@ -151,8 +158,9 @@ img {
     font-size: 16px;
     border-color: #1F2937;
     padding: 10px;
-    width: 100px;
+    width: 25%;
     color: white;
+    font-weight: bold;
 }
 
 .quoteSection{
@@ -166,8 +174,8 @@ img {
 .quote{
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
-    color: #1F2937;
+    font-weight: 300;
+    color: #333333;
     text-align: left;
     width: 800px;
 }
@@ -193,7 +201,7 @@ img {
     background-color: #3882f6;
     height: 150px;
     width: 75%;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
